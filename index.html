@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asset/css/reset.css" />
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./asset/favicon/ico/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./asset/favicon/ico/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./asset/favicon/ico/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./asset/favicon/ico/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./asset/favicon/ico/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./asset/favicon/ico/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./asset/favicon/ico/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./asset/favicon/ico/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./asset/favicon/ico/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./asset/favicon/ico/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./asset/favicon/ico/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./asset/favicon/ico/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./asset/favicon/ico/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./asset/favicon/ico/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./asset/favicon/ico/apple-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,900;1,100;1,200;1,300;1,400;1,500;1,800;1,900&family=Sen:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Luyện tập DA-01</title>
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <link rel="stylesheet" href="./asset/css/respondsive.css">
+  </head>
+  <body>
+    <!-- header laptop pc-->
+    <header class="header">
+      <div class="container">
+        <div class="header-top" >
+          <img src="./asset/icon/logo-Lesson..svg" alt="Logo" class="logo" />
+          <nav class="navbar">
+            <ul class="nav__list" id = "nav-top__pc">
+              <li><a href="#!" class="nav__link active">Home</a></li>
+              <li><a href="#!" class="nav__link">Courses</a></li>
+              <li><a href="#!" class="nav__link">Pricing</a></li>
+              <li><a href="#!" class="nav__link">Previews</a></li>
+            </ul>
+          </nav>
+          <form action="" class="form-header" id = "form-header__pc">
+            <input type="submit" value="Sign Up" id="sign-up" />
+          </form>
+        </div>
+        <div class="header-bottom hero">
+          <div class="hero-left">
+            <img
+              src="./asset/img/guy-lesson 1.png"
+              alt="Guy Lesson"
+              class="hero-left__img"
+            />
+            <div class="hero-left__items">
+              <!-- item 1 -->
+              <div class="item">
+                <figure class="item__icon">
+                  <svg
+                    class="item__icon--top"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="4"
+                    viewBox="0 0 24 4"
+                    fill="none"
+                  >
+                    <path
+                      d="M0.75 0V3.75H23.25V0H0.75ZM3 2.625C2.85166 2.625 2.70666 2.58101 2.58332 2.4986C2.45999 2.41619 2.36386 2.29906 2.30709 2.16201C2.25032 2.02497 2.23547 1.87417 2.26441 1.72868C2.29335 1.5832 2.36478 1.44956 2.46967 1.34467C2.57456 1.23978 2.7082 1.16835 2.85368 1.13941C2.99917 1.11047 3.14997 1.12532 3.28701 1.18209C3.42406 1.23886 3.54119 1.33499 3.6236 1.45832C3.70601 1.58166 3.75 1.72666 3.75 1.875C3.75 2.07391 3.67098 2.26468 3.53033 2.40533C3.38968 2.54598 3.19891 2.625 3 2.625ZM5.25 2.625C5.10166 2.625 4.95666 2.58101 4.83332 2.4986C4.70999 2.41619 4.61386 2.29906 4.55709 2.16201C4.50032 2.02497 4.48547 1.87417 4.51441 1.72868C4.54335 1.5832 4.61478 1.44956 4.71967 1.34467C4.82456 1.23978 4.9582 1.16835 5.10368 1.13941C5.24917 1.11047 5.39997 1.12532 5.53701 1.18209C5.67406 1.23886 5.79119 1.33499 5.8736 1.45832C5.95601 1.58166 6 1.72666 6 1.875C6 2.07391 5.92098 2.26468 5.78033 2.40533C5.63968 2.54598 5.44891 2.625 5.25 2.625ZM7.5 2.625C7.35166 2.625 7.20666 2.58101 7.08332 2.4986C6.95999 2.41619 6.86386 2.29906 6.80709 2.16201C6.75032 2.02497 6.73547 1.87417 6.76441 1.72868C6.79335 1.5832 6.86478 1.44956 6.96967 1.34467C7.07456 1.23978 7.2082 1.16835 7.35368 1.13941C7.49917 1.11047 7.64997 1.12532 7.78701 1.18209C7.92406 1.23886 8.04119 1.33499 8.1236 1.45832C8.20601 1.58166 8.25 1.72666 8.25 1.875C8.25 2.07391 8.17098 2.26468 8.03033 2.40533C7.88968 2.54598 7.69891 2.625 7.5 2.625Z"
+                      fill="#FFB900"
+                    />
+                  </svg>
+                  <svg
+                    class="item__icon--bottom"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="13"
+                    viewBox="0 0 24 13"
+                    fill="none"
+                  >
+                    <path
+                      d="M0.75 0.25V13H23.25V0.25H0.75ZM12.75 10H5.25C5.05109 10 4.86032 9.92098 4.71967 9.78033C4.57902 9.63968 4.5 9.44891 4.5 9.25C4.5 9.05109 4.57902 8.86032 4.71967 8.71967C4.86032 8.57902 5.05109 8.5 5.25 8.5H12.75C12.9489 8.5 13.1397 8.57902 13.2803 8.71967C13.421 8.86032 13.5 9.05109 13.5 9.25C13.5 9.44891 13.421 9.63968 13.2803 9.78033C13.1397 9.92098 12.9489 10 12.75 10ZM18.75 7H5.25C5.05109 7 4.86032 6.92098 4.71967 6.78033C4.57902 6.63968 4.5 6.44891 4.5 6.25C4.5 6.05109 4.57902 5.86032 4.71967 5.71967C4.86032 5.57902 5.05109 5.5 5.25 5.5H18.75C18.9489 5.5 19.1397 5.57902 19.2803 5.71967C19.421 5.86032 19.5 6.05109 19.5 6.25C19.5 6.44891 19.421 6.63968 19.2803 6.78033C19.1397 6.92098 18.9489 7 18.75 7ZM18.75 4H5.25C5.05109 4 4.86032 3.92098 4.71967 3.78033C4.57902 3.63968 4.5 3.44891 4.5 3.25C4.5 3.05109 4.57902 2.86032 4.71967 2.71967C4.86032 2.57902 5.05109 2.5 5.25 2.5H18.75C18.9489 2.5 19.1397 2.57902 19.2803 2.71967C19.421 2.86032 19.5 3.05109 19.5 3.25C19.5 3.44891 19.421 3.63968 19.2803 3.78033C19.1397 3.92098 18.9489 4 18.75 4Z"
+                      fill="#FFB900"
+                    />
+                  </svg>
+                </figure>
+                <div class="item__text">
+                  <div class="item__text--top">20 Courses</div>
+                  <div class="item__text--bottom">UI/UX Design</div>
+                </div>
+              </div>
+              <!-- item 2 -->
+              <div class="item">
+                <figure class="item__icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="4" viewBox="0 0 24 4" fill="none">
+                    <path d="M0.75 0V3.75H23.25V0H0.75ZM3 2.625C2.85166 2.625 2.70666 2.58101 2.58332 2.4986C2.45999 2.41619 2.36386 2.29906 2.30709 2.16201C2.25032 2.02497 2.23547 1.87417 2.26441 1.72868C2.29335 1.5832 2.36478 1.44956 2.46967 1.34467C2.57456 1.23978 2.7082 1.16835 2.85368 1.13941C2.99917 1.11047 3.14997 1.12532 3.28701 1.18209C3.42406 1.23886 3.54119 1.33499 3.6236 1.45832C3.70601 1.58166 3.75 1.72666 3.75 1.875C3.75 2.07391 3.67098 2.26468 3.53033 2.40533C3.38968 2.54598 3.19891 2.625 3 2.625ZM5.25 2.625C5.10166 2.625 4.95666 2.58101 4.83332 2.4986C4.70999 2.41619 4.61386 2.29906 4.55709 2.16201C4.50032 2.02497 4.48547 1.87417 4.51441 1.72868C4.54335 1.5832 4.61478 1.44956 4.71967 1.34467C4.82456 1.23978 4.9582 1.16835 5.10368 1.13941C5.24917 1.11047 5.39997 1.12532 5.53701 1.18209C5.67406 1.23886 5.79119 1.33499 5.8736 1.45832C5.95601 1.58166 6 1.72666 6 1.875C6 2.07391 5.92098 2.26468 5.78033 2.40533C5.63968 2.54598 5.44891 2.625 5.25 2.625ZM7.5 2.625C7.35166 2.625 7.20666 2.58101 7.08332 2.4986C6.95999 2.41619 6.86386 2.29906 6.80709 2.16201C6.75032 2.02497 6.73547 1.87417 6.76441 1.72868C6.79335 1.5832 6.86478 1.44956 6.96967 1.34467C7.07456 1.23978 7.2082 1.16835 7.35368 1.13941C7.49917 1.11047 7.64997 1.12532 7.78701 1.18209C7.92406 1.23886 8.04119 1.33499 8.1236 1.45832C8.20601 1.58166 8.25 1.72666 8.25 1.875C8.25 2.07391 8.17098 2.26468 8.03033 2.40533C7.88968 2.54598 7.69891 2.625 7.5 2.625Z" fill="#A13FB9"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="13" viewBox="0 0 24 13" fill="none">
+                    <path d="M0.75 0.25V13H23.25V0.25H0.75ZM10.3286 8.75688C10.3956 8.8307 10.4472 8.91713 10.4804 9.01113C10.5136 9.10512 10.5277 9.20479 10.5219 9.30431C10.5161 9.40382 10.4906 9.50118 10.4467 9.59071C10.4029 9.68023 10.3417 9.76012 10.2666 9.8257C10.1915 9.89127 10.1041 9.94123 10.0095 9.97264C9.91491 10.004 9.81499 10.0163 9.7156 10.0086C9.61622 10.001 9.51935 9.97359 9.43067 9.92807C9.34199 9.88254 9.26327 9.8198 9.19913 9.7435L6.1425 6.24475L9.19987 2.75725C9.26397 2.68054 9.34276 2.61742 9.4316 2.57159C9.52044 2.52577 9.61755 2.49817 9.71721 2.49041C9.81687 2.48265 9.91708 2.4949 10.0119 2.52643C10.1068 2.55795 10.1944 2.60813 10.2696 2.674C10.3448 2.73986 10.4061 2.8201 10.4498 2.90999C10.4935 2.99988 10.5189 3.0976 10.5243 3.19742C10.5297 3.29723 10.5151 3.39713 10.4814 3.49123C10.4477 3.58533 10.3955 3.67174 10.3279 3.74537L8.13525 6.24625L10.3286 8.75688ZM14.8286 9.7435C14.7645 9.8198 14.6858 9.88254 14.5971 9.92807C14.5084 9.97359 14.4115 10.001 14.3121 10.0086C14.2128 10.0163 14.1128 10.004 14.0182 9.97264C13.9236 9.94123 13.8362 9.89127 13.7612 9.8257C13.6861 9.76012 13.6248 9.68023 13.581 9.59071C13.5372 9.50118 13.5116 9.40382 13.5058 9.30431C13.5 9.20479 13.5142 9.10512 13.5474 9.01113C13.5805 8.91713 13.6321 8.8307 13.6991 8.75688L15.8925 6.24625L13.6999 3.74387C13.6323 3.67024 13.5801 3.58383 13.5463 3.48973C13.5126 3.39563 13.498 3.29573 13.5035 3.19592C13.5089 3.0961 13.5342 2.99838 13.5779 2.90849C13.6217 2.8186 13.683 2.73836 13.7581 2.6725C13.8333 2.60663 13.9209 2.55645 14.0158 2.52493C14.1107 2.4934 14.2109 2.48115 14.3105 2.48891C14.4102 2.49667 14.5073 2.52427 14.5962 2.57009C14.685 2.61592 14.7638 2.67904 14.8279 2.75575L17.8853 6.24325L14.8286 9.7435Z" fill="#A13FB9"/>
+                  </svg>
+                </figure>
+                <div class="item__text">
+                  <div class="item__text--top">20 Courses</div>
+                  <div class="item__text--bottom">UI/UX Design</div>
+                </div>
+              </div>
+              <!-- item 3 -->
+              <div class="item">
+                <figure class="item__icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
+                    <path d="M21 5.875V0.625C17.698 2.94934 13.7862 4.25325 9.75 4.375H6.75V11.875C6.75 14.1625 6.75 17.65 10.9875 19.3375H11.25C11.431 19.3448 11.6085 19.2863 11.7497 19.1729C11.8909 19.0595 11.9864 18.8989 12.0184 18.7206C12.0504 18.5423 12.0168 18.3585 11.9238 18.2031C11.8308 18.0476 11.6847 17.9311 11.5125 17.875C8.25 16.6 8.25 14.0875 8.25 11.875H9.75C13.8052 11.8857 17.7494 13.2005 21 15.625V10.375C21.5967 10.375 22.169 10.1379 22.591 9.71599C23.0129 9.29403 23.25 8.72174 23.25 8.125C23.25 7.52826 23.0129 6.95597 22.591 6.53401C22.169 6.11205 21.5967 5.875 21 5.875ZM0.75 6.625V9.625C0.75 10.2217 0.987053 10.794 1.40901 11.216C1.83097 11.6379 2.40326 11.875 3 11.875H5.25V4.375H3C2.40326 4.375 1.83097 4.61205 1.40901 5.03401C0.987053 5.45597 0.75 6.02826 0.75 6.625Z" fill="#5C50E4"/>
+                  </svg>
+                  </svg>
+                </figure>
+                <div class="item__text">
+                  <div class="item__text--top">20 Courses</div>
+                  <div class="item__text--bottom">UI/UX Design</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-right">
+            <p class="hero-right__title">Learn without limits and spread knowledge.</p>
+            <p class="hero-right__content">Build new skills for that “this is my year” feeling with courses, certificates, and degrees from world-class universities and companies.</p>
+            <div class="hero-right__video">
+                
+              <a href="#!" class="see-courses">See Courses</a>
+            <div class="video">
+               <img src="./asset/icon/play.svg" alt="Play" class="play-icon">
+                <a href="#!" class="watch-video">Watch Video</a>
+            </div>
+            </div>
+            <p class="recent-engagement">Recent engagement</p>
+            <div class="hero-right__quantity">
+              <div class="quantity">
+                <p>50K</p>
+                <p>Students</p>
+              </div>
+              <div class="quantity">
+                <p>70K+</p>
+                <p>Courses</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header mobile -->  
+     <label for="check-box">
+      <input type="checkbox" name="" id="check-box" hidden>
+      <svg class="menu-drawer__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"> 
+      <path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+      <div class="overlay"></div>
+      <div class="menu-drawer">
+        <div class="menu-drawer__top">
+          <img src="./asset/icon/logo-Lesson..svg" alt="Logo" class="logo" />
+          <svg class="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/></svg>
+        </div>
+        <ul id="nav-top__mobile"></ul>
+        <script>
+          const topPC = document.querySelector("#nav-top__pc");
+          const topMobile = document.querySelector("#nav-top__mobile");
+          topMobile.innerHTML = topPC.innerHTML;
+        </script>
+         <form action="" id = "form-header__mobile"></form>
+        <script>
+          const signPC = document.querySelector("#form-header__pc");
+          const signMobile = document.querySelector("#form-header__mobile");
+          signMobile.innerHTML = signPC.innerHTML;
+        </script>
+      </div>
+    
+    </label>
+    <!-- main -->
+     <main class="main">
+      <!-- Courses -->
+      <div class="container">
+        <section class="courses-top">
+          <p class="courses-top__title">Our popular courses</p>
+          <p class="courses-top__content">Build new skills with new trendy courses and shine for the next future career.</p>
+        </section>
+        <section class="courses-cards">
+          <!-- item 1 -->
+           <div class="card">
+            <img src="./asset/img/course-1.jpg" alt="Courses 1" class="card__img">
+            <div class="card__title">
+              <p class="card__title--name">Basic web design</p>
+              <div class="card__title--vote">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                  <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="#FEA31B"/>       
+                </svg>
+                <p class="vote-quantity">4.5</p>
+              </div>
+            </div>
+            <p class="card__content">Get the best course, gain knowledge and shine for your future career.</p>
+            <div class="card__price">
+              <p class="price">$120.75</p>
+              <a href="#!" class="card__book">Book Now</a>
+            </div>
+           </div>
+            <!-- item 2 -->
+            <div class="card">
+              <img src="./asset/img/course-2.jpg" alt="Courses 2" class="card__img">
+              <div class="card__title">
+                <p class="card__title--name">UI/UX design</p>
+                <div class="card__title--vote">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                    <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="#FEA31B"/>       
+                  </svg>
+                  <p class="vote-quantity">4.5</p>
+                </div>
+              </div>
+              <p class="card__content">Get the best course, gain knowledge and shine for your future career.</p>
+              <div class="card__price">
+                <p class="price">$120.75</p>
+                <a href="#!" class="card__book">Book Now</a>
+              </div>
+             </div>
+              <!-- item  -->
+           <div class="card">
+            <img src="./asset/img/course-3.jpg" alt="Courses 3" class="card__img">
+            <div class="card__title">
+              <p class="card__title--name">Web App design</p>
+              <div class="card__title--vote">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                  <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="#FEA31B"/>       
+                </svg>
+                <p class="vote-quantity">4.5</p>
+              </div>
+            </div>
+            <p class="card__content">Get the best course, gain knowledge and shine for your future career.</p>
+            <div class="card__price">
+              <p class="price">$120.75</p>
+              <a href="#!" class="card__book">Book Now</a>
+            </div>
+           </div>
+        </section>
+      </div>
+      <!-- testimonial -->
+      <article class="testimonial">
+        <div class="container testimonial-box">
+          <figure class="avatar">
+            <img src="./asset/img/avatar2.jpg" alt="Avatar" class="avatar-img">
+            <figcaption class="avatar-info">
+              <p class="info__name">Peter Moor</p>
+              <p class="info__class">Student of Web Design</p>
+              <div class="v-v">
+                <img class="v" src="./asset/icon/v.v.svg" alt="">
+                <img class="v" src="./asset/icon/v.v.svg" alt="">
+                <img class="v" src="./asset/icon/v.v.svg" alt="">
+              </div>
+            </figcaption>
+          </figure>
+          <p class="testimonial-text">
+            Not only does my resume look impressive—filled with the names and logos of world-class institutions—but these certificates also bring me closer to my career goals by validating the skills I've learned." 
+          </p>
+        </div>
+       </article>
+       <!-- Features -->
+        <article class="features">
+          <div class="container">
+            <article class="features-box">
+              <figure class="features__left">
+                <img loading="lazy" src="./asset/img/features-down.jpg" alt="Web design" class="features__left--down">
+                <img loading="lazy" src="./asset/img/features-up.jpg" alt="Web design" class="features__left--up">
+              </figure>
+              <section class="features__right">
+                <p class="features__right--title">Learner outcomes through our awesome platform</p>
+                <p class="features__right--content">87% of people learning for professional development report career benefits like getting a promotion, a raise, or starting a new career.</p>
+                <p class="features__right--lesson">Lesson Impact Report (2022)</p>
+                <a href="#!" class="features__right--sign-up">Sign Up</a>
+              </section>
+            </article>
+          </div>
+        </article>
+        <!-- CTA -->
+         <section class="cta">
+           <div class="container">
+             <div class="cta-box">
+                <section class="cta__left">
+                  <p class="cta__left--big-size">Take the next step toward your personal and professional goals with Lesson.</p>
+                  <p class="cta__left--small-size">Take the next step toward.
+                     Join now to receive personalized  and more recommendations from the full Coursera catalog.</p>
+                  <a href="#!" class="cta__link">Join Now</a>
+                </section>
+                <figure class="cta__right">
+                  <img src="./asset/img/cta.jpg" alt="CTA image" class="cta__img">
+                </figure>
+             </div>
+            </div>
+           </section>
+           <!-- BLOG -->
+            <section class="blog">
+              <div class="container">
+                <section class="blog-box">
+                  <div class="blog__top">
+                    <p class="blog__top--big-size">Our Blog</p>
+                    <p class="blog__top--small-size">Read our regular travel blog and know the latest update 
+                      of tour and travel</p>
+                  </div>
+                  <div class="blog__bottom">
+                    <!-- blog item 1 -->
+                     <figure class="blog__bottom--item">
+                      <img src="./asset/img/blog1.jpg" alt="Blog" class="blog-item__img">
+                      <figcaption class="blog-item__down">
+                        <p class="blog-item__date">21 November 2021</p>
+                        <p class="blog-item__how-to">How to become a pro 
+                          web designer in 2022 and get remot job?</p>
+                        <a href="#!" class="blog-item__link">Read More</a>  
+                      </figcaption>
+                     </figure>
+                    <!-- blog item 2 -->
+                    <figure class="blog__bottom--item">
+                      <img src="./asset/img/blog2.jpg" alt="Blog" class="blog-item__img">
+                      <figcaption class="blog-item__down">
+                        <p class="blog-item__date">21 November 2021</p>
+                        <p class="blog-item__how-to">How to become a pro 
+                          web designer in 2022 and get remot job?</p>
+                        <a href="#!" class="blog-item__link">Read More</a>  
+                      </figcaption>
+                     </figure>
+                    <!-- blog item 3 -->
+                    <figure class="blog__bottom--item">
+                      <img src="./asset/img/blog3.jpg" alt="Blog" class="blog-item__img">
+                      <figcaption class="blog-item__down">
+                        <p class="blog-item__date">21 November 2021</p>
+                        <p class="blog-item__how-to">How to become a pro 
+                          web designer in 2022 and get remot job?</p>
+                        <a href="#!" class="blog-item__link">Read More</a>  
+                      </figcaption>
+                     </figure>
+                  </div>
+                  <div class="blog__footer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="6" viewBox="0 0 30 6" fill="none">
+                      <circle cx="3" cy="3" r="3" fill="#5F5B53"/>
+                      <circle cx="15" cy="3" r="3" fill="#FFB900"/>
+                      <circle cx="27" cy="3" r="3" fill="#5F5B53"/>
+                    </svg>
+                  </div>
+                </section>
+              </div>
+            </section>
+           </div>
+     </main>
+     <footer class="footer">
+      <div class="container">
+        <section class="footer__content">
+          <section class="column-1">
+            <img src="./asset/icon/footer-logo.svg" alt="Logo" class="logo" />
+            <p class="column-1__text">Need to help for your dream Career? trust us.
+               With Lesson, study becomes a lot easier with us.</p>
+            <div class="social">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" viewBox="0 0 18 15" fill="none">
+                <path d="M5.64991 15C3.57026 15 1.63168 14.3864 0 13.3276C1.38535 13.4185 3.83019 13.2007 5.35087 11.7292C3.06326 11.6227 2.0316 9.8428 1.89703 9.08215C2.0914 9.15822 3.01841 9.24949 3.54172 9.03651C0.91022 8.36714 0.506525 6.02434 0.596235 5.30933C1.08964 5.65923 1.92694 5.78093 2.25587 5.75051C-0.196205 3.97059 0.685945 1.2931 1.11954 0.71501C2.87924 3.18826 5.51649 4.57733 8.7791 4.65459C8.71759 4.38089 8.6851 4.09593 8.6851 3.80325C8.6851 1.70277 10.3586 0 12.423 0C13.5016 0 14.4735 0.46484 15.1558 1.20837C15.8766 1.03703 16.9613 0.635914 17.4916 0.289047C17.2243 1.26268 16.3922 2.07488 15.8888 2.37592C15.8847 2.36563 15.893 2.38616 15.8888 2.37592C16.331 2.30807 17.5274 2.07481 18 1.74949C17.7663 2.29647 16.884 3.20591 16.16 3.71506C16.2947 9.74221 11.7492 15 5.64991 15Z" fill="white"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="9" height="15" viewBox="0 0 9 15" fill="none">
+                <path d="M8.41028 8.37379L8.87669 5.67961H5.95891V3.93204C5.95891 3.1948 6.36575 2.47573 7.67262 2.47573H9V0.182039C9 0.182039 7.79588 0 6.6452 0C4.24113 0 2.67125 1.29064 2.67125 3.62621V5.67961H0V8.37379H2.67125V14.8871C3.20753 14.9618 3.75618 15 4.31508 15C4.87398 15 5.42263 14.9618 5.95891 14.8871V8.37379H8.41028Z" fill="white"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                <path d="M3.61856 1.81302C3.61856 2.81432 2.80852 3.62603 1.80928 3.62603C0.810041 3.62603 0 2.81432 0 1.81302C0 0.811715 0.810041 0 1.80928 0C2.80852 0 3.61856 0.811715 3.61856 1.81302Z" fill="white"/>
+                <path d="M0.247423 4.95868H3.34021V15H0.247423V4.95868Z" fill="white"/>
+                <path d="M8.31959 4.95868H5.2268V15H8.31959C8.31959 15 8.31959 11.8388 8.31959 9.86235C8.31959 8.67602 8.69766 7.4845 10.2062 7.4845C11.911 7.4845 11.9008 9.037 11.8928 10.2397C11.8824 11.8119 11.9072 13.4163 11.9072 15H15V9.70041C14.9738 6.31647 14.1508 4.75723 11.4433 4.75723C9.8354 4.75723 8.83871 5.53935 8.31959 6.24696V4.95868Z" fill="white"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                <path d="M12.75 3.375C12.75 3.99632 12.2463 4.5 11.625 4.5C11.0037 4.5 10.5 3.99632 10.5 3.375C10.5 2.75368 11.0037 2.25 11.625 2.25C12.2463 2.25 12.75 2.75368 12.75 3.375Z" fill="white"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 11.25C9.57107 11.25 11.25 9.57107 11.25 7.5C11.25 5.42893 9.57107 3.75 7.5 3.75C5.42893 3.75 3.75 5.42893 3.75 7.5C3.75 9.57107 5.42893 11.25 7.5 11.25ZM7.5 9.75C8.74264 9.75 9.75 8.74264 9.75 7.5C9.75 6.25736 8.74264 5.25 7.5 5.25C6.25736 5.25 5.25 6.25736 5.25 7.5C5.25 8.74264 6.25736 9.75 7.5 9.75Z" fill="white"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 7.2C0 4.67976 0 3.41965 0.490471 2.45704C0.921901 1.61031 1.61031 0.921901 2.45704 0.490471C3.41965 0 4.67976 0 7.2 0H7.8C10.3202 0 11.5804 0 12.543 0.490471C13.3897 0.921901 14.0781 1.61031 14.5095 2.45704C15 3.41965 15 4.67976 15 7.2V7.8C15 10.3202 15 11.5804 14.5095 12.543C14.0781 13.3897 13.3897 14.0781 12.543 14.5095C11.5804 15 10.3202 15 7.8 15H7.2C4.67976 15 3.41965 15 2.45704 14.5095C1.61031 14.0781 0.921901 13.3897 0.490471 12.543C0 11.5804 0 10.3202 0 7.8V7.2ZM7.2 1.5H7.8C9.08487 1.5 9.95831 1.50117 10.6334 1.55633C11.2911 1.61006 11.6274 1.70745 11.862 1.82698C12.4265 2.1146 12.8854 2.57354 13.173 3.13803C13.2926 3.37263 13.3899 3.70893 13.4437 4.36656C13.4988 5.04169 13.5 5.91513 13.5 7.2V7.8C13.5 9.08487 13.4988 9.95831 13.4437 10.6334C13.3899 11.2911 13.2926 11.6274 13.173 11.862C12.8854 12.4265 12.4265 12.8854 11.862 13.173C11.6274 13.2926 11.2911 13.3899 10.6334 13.4437C9.95831 13.4988 9.08487 13.5 7.8 13.5H7.2C5.91513 13.5 5.04169 13.4988 4.36656 13.4437C3.70893 13.3899 3.37263 13.2926 3.13803 13.173C2.57354 12.8854 2.1146 12.4265 1.82698 11.862C1.70745 11.6274 1.61006 11.2911 1.55633 10.6334C1.50117 9.95831 1.5 9.08487 1.5 7.8V7.2C1.5 5.91513 1.50117 5.04169 1.55633 4.36656C1.61006 3.70893 1.70745 3.37263 1.82698 3.13803C2.1146 2.57354 2.57354 2.1146 3.13803 1.82698C3.37263 1.70745 3.70893 1.61006 4.36656 1.55633C5.04169 1.50117 5.91513 1.5 7.2 1.5Z" fill="white"/>
+              </svg>
+            </div>
+          </section>
+          <section class="column-2">
+            <h2>Company</h2>
+              <ul class="footer__list">
+                <li><a class="footer__link">About Us</a></li>
+                <li><a class="footer__link">Features</a></li>
+                <li><a class="footer__link">Our Pricing</a></li>
+                <li><a class="footer__link">Latest News</a></li>
+              </ul>
+            
+          </section>
+          <section class="column-3">
+            <h2>Support</h2>
+              <ul class="footer__list">
+                <li><a class="footer__link">FAQ’s</a></li>
+                <li><a class="footer__link">Terms & Conditions</a></li>
+                <li><a class="footer__link">Privacy Policy</a></li>
+                <li><a class="footer__link">Contact Us</a></li>
+              </ul>
+            
+          </section>
+          <section class="column-4">
+            <h2>Address</h2>
+              <div class="address">
+                <p class="location"><strong>Location: </strong>27 Division St, New York, NY 10002, USA</p>
+                <p class="email"><strong>Email: </strong>email@gmail.com</p>
+                <p class="location"><strong>Phone: </strong>+ 000 1234 567 890</p>
+              </div>
+            
+          </section>
+        </section>
+        <p class="footer__copyright">Copyright ©2022 webdesign.gdn All rights reserved</p>
+      </div>
+     </footer>
+
+  </body>
+</html>
